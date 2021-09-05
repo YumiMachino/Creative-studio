@@ -201,6 +201,10 @@ mid section
   grid-template-columns: repeat(4, 1fr);
 }
 
+.mid-images img {
+  min-height: 200px;
+}
+
 .portfolio {
   padding: 60px 0;
 }
@@ -338,6 +342,7 @@ Contact section
   color: var(--pink-color);
   text-transform: uppercase;
   transition: all 0.3s ease;
+  background-color: #fff;
 }
 
 .form-group input[type="submit"]:hover {
